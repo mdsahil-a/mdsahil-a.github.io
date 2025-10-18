@@ -109,6 +109,7 @@ cursor:pointer;
     transition: background-color 0.2s ease;
     cursor: pointer;
         z-index:999;
+  text-decoration:none;
 }
 .btn-knowme:hover{
 
@@ -788,3 +789,4 @@ right:-20%;
         .hidden{
             display: none;
         }
+
