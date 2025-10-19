@@ -220,10 +220,17 @@ main{
     border-radius:50px;
     color:black;
     padding:0.6rem 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.1em;
     transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-signing-main i{
+    font-size: 20px;
 }
 
 .btn-signing-main:hover{
@@ -725,6 +732,11 @@ right:-20%;
             #projects-grid { grid-template-columns: 1fr; }
             .about-section { text-align: center; }
             .about-image { margin-bottom: 2rem; }
+
+            .form-group label{
+    text-align: center;
+
+}
         }
 
         .sidebar{
